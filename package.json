@@ -1,0 +1,25 @@
+{
+  "name": "array-reverse-ios12",
+  "version": "1.0.0",
+  "description": "Fix IOS 12 Array Reverse Bug.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanmingfei/array-reverse-ios12.git"
+  },
+  "keywords": [
+    "ios12",
+    "array",
+    "reverse",
+    "bug"
+  ],
+  "author": "fanmingfei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fanmingfei/array-reverse-ios12/issues"
+  },
+  "homepage": "https://github.com/fanmingfei/array-reverse-ios12#readme"
+}

@@ -1,4 +1,4 @@
-# fix-array-reverse
+# array-reverse-polyfill
 Fix IOS 12 Array Reverse Bug.
 
 ## Use
@@ -8,7 +8,7 @@ Use release version
 
 NPM
 ```javascript
-import 'array-reverse-ios12' 
+import 'array-reverse-polyfill'
 ```
 
 ## Test
@@ -16,6 +16,6 @@ import 'array-reverse-ios12'
 Origin HTML: [https://fanmingfei.github.io/array-reverse-ios12/origin.html](https://fanmingfei.github.io/array-reverse-ios12/origin.html)
 
 
-Fixed HTML: [https://fanmingfei.github.io/array-reverse-ios12/origin.html](https://fanmingfei.github.io/array-reverse-ios12/fixed.html)
+Fixed HTML: [https://fanmingfei.github.io/array-reverse-ios12/fixed.html](https://fanmingfei.github.io/array-reverse-ios12/fixed.html)
 
 Clicking the refresh button to test.

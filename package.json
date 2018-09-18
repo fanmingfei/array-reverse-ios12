@@ -1,5 +1,5 @@
 {
-  "name": "fix-array-reverse",
+  "name": "array-reverse-polyfill",
   "version": "1.0.0",
   "description": "Fix IOS 12 Array Reverse Bug.",
   "main": "index.js",

@@ -10,3 +10,12 @@ NPM
 ```javascript
 import 'array-reverse-ios12' 
 ```
+
+## Test
+
+Origin HTML: [https://fanmingfei.github.io/array-reverse-ios12/origin.html](https://fanmingfei.github.io/array-reverse-ios12/origin.html)
+
+
+Fixed HTML: [https://fanmingfei.github.io/array-reverse-ios12/origin.html](https://fanmingfei.github.io/array-reverse-ios12/fixed.html)
+
+Clicking the refresh button to test.

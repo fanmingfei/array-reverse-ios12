@@ -1,4 +1,4 @@
-# array-reverse-ios12
+# fix-array-reverse
 Fix IOS 12 Array Reverse Bug.
 
 ## Use

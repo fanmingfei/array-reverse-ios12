@@ -8,7 +8,7 @@
   Array.prototype._reverse = Array.prototype.reverse;
   Array.prototype.reverse = function reverse() {
     this.length = this.length;
-    return this._reverse();
+    return Array.prototype._reverse.call(this);
   }
   var nonenum = {enumerable: false};
   Object.defineProperties(Array.prototype, {

@@ -36,9 +36,11 @@ For Not fixed: [https://fanmingfei.github.io/array-reverse-ios12/origin.html](ht
 
 For Fixed: [https://fanmingfei.github.io/array-reverse-ios12/fixed.html](https://fanmingfei.github.io/array-reverse-ios12/fixed.html)
 
+Clicking the button to test.
+
+
 For Unit Test: [https://fanmingfei.github.io/array-reverse-ios12/tests/](https://fanmingfei.github.io/array-reverse-ios12/tests/)
 
-Clicking the refresh button to reload page.
 
 --------------------------------
 

@@ -1,11 +1,7 @@
 (function() {
   function buggy() {
-    function detect() {
-      var a = [0, 1];
-      a.reverse();
-      return a[0] === 0;
-    }
-    return detect() || detect();
+    var a = [1, 2];
+    return String(a) === String(a.reverse());
   }
   if(!buggy()) return;
   Array.prototype._reverse = Array.prototype.reverse;

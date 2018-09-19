@@ -12,7 +12,7 @@
   }
   Array.prototype._reverse = Array.prototype.reverse;
   Array.prototype.reverse = function reverse() {
-    this.length = this.length;
+    if (Array.isArray(this)) this.length = this.length;
     return Array.prototype._reverse.call(this);
   }
   var nonenum = {enumerable: false};

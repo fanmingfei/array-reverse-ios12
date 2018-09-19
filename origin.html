@@ -8,21 +8,25 @@
 
 <body>
     Use iOS12 test. <br/>
-    <button onclick="location.reload()" style="border: 1px solid #ccc;">Click Refresh</button>
+    <button onclick="test()" style="border: 1px solid #ccc;">Click Refresh</button>
     <script>
-    var arr = [1, 2, 3, 4]
-    alert(arr.join(','))
-    arr.reverse()
+        function test() {
+            var arr = [1, 2, 3, 4]
+            document.body.innerHTML += '<br/>'+arr.join(',')
+            arr.reverse()
+        }
     </script>
     <div>
         <pre>
         <code>
-Use iOS12 test.
-&lt;button onclick=&quot;location.reload()&quot;&gt;refresh&lt;/button&gt;
+Use iOS12 test. &lt;br/&gt;
+&lt;button onclick=&quot;test()&quot; style=&quot;border: 1px solid #ccc;&quot;&gt;Click Refresh&lt;/button&gt;
 &lt;script&gt;
-var arr = [1, 2, 3, 4]
-alert(arr)
-arr.reverse()
+    function test() {
+        var arr = [1, 2, 3, 4]
+        document.body.innerHTML += &#x27;&lt;br/&gt;&#x27;+arr.join(&#x27;,&#x27;)
+        arr.reverse()
+    }
 &lt;/script&gt;
         </code>
       </pre>

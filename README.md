@@ -10,7 +10,7 @@ Use release version
 
 CDN
 ```html
-<script src="//g.alicdn.com/mtb/fix-ios12-array/1.0.8/index.js"></script>
+<script src="//g.alicdn.com/mtb/fix-ios12-array/1.0.9/index.js"></script>
 ```
 
 [NPM](https://www.npmjs.com/package/array-reverse-polyfill)

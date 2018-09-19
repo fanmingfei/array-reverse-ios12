@@ -8,10 +8,10 @@ Use release version
 
 CDN
 ```html
-<script src="//g.alicdn.com/mtb/fix-ios12-array/1.0.1/index.js"></script>
+<script src="//g.alicdn.com/mtb/fix-ios12-array/1.0.7/index.js"></script>
 ```
 
-NPM
+[NPM](https://www.npmjs.com/package/array-reverse-polyfill)
 ```javascript
 import 'array-reverse-polyfill'
 ```
@@ -30,3 +30,4 @@ Clicking the refresh button to reload page.
 --------------------------------
 
 # Hope you guys luck
+

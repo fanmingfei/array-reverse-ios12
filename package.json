@@ -1,6 +1,6 @@
 {
   "name": "array-reverse-polyfill",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fix IOS 12 Array Reverse Bug.",
   "main": "index.js",
   "scripts": {

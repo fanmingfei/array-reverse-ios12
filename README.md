@@ -1,3 +1,5 @@
+![](https://user-images.githubusercontent.com/159840/45736779-8a4ad180-bc1e-11e8-9022-b58935f026eb.png)
+
 # array-reverse-polyfill
 Fixed Array Reverse Bug On iOS 12. (See the bug: https://stackoverflow.com/questions/52390368/array-state-will-be-cached-in-ios-12-safari-is-bug-or-feature/52392901#52392901)
 

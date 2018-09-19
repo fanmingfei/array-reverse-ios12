@@ -5,7 +5,7 @@ Fixed Array Reverse Bug On iOS 12 and MacOS' Safari 12.0.
 
 ## About Posts
 
-https://bugs.webkit.org/show_bug.cgi?id=189745
+https://bugs.webkit.org/show_bug.cgi?id=188794
 
 https://stackoverflow.com/q/52390368/7606327
 

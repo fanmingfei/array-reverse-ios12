@@ -8,14 +8,9 @@
     return detect() || detect();
   }
   if(!buggy()) return;
-  Array.prototype._reverse = Array.prototype.reverse;
+  var r = Array.prototype.reverse;
   Array.prototype.reverse = function reverse() {
     if (Array.isArray(this)) this.length = this.length;
-    return Array.prototype._reverse.call(this);
+    return r.call(this);
   }
-  var nonenum = {enumerable: false};
-  Object.defineProperties(Array.prototype, {
-    _reverse: nonenum,
-    reverse: nonenum,
-  });
 })();

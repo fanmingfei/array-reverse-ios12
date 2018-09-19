@@ -1,13 +1,18 @@
 (function() {
-  if (navigator.userAgent.indexOf('; CPU OS 12 ') === -1) return;
+  var ua = navigator.userAgent;
+  if (!ua.match(/(iPhone|iPad|iPod)/)) return;
+  var matched = ua.match(/OS ([\d_\.]+) like Mac OS X/);
+  if (!matched[1]) return;
+  // Match all iOS 12, because we don't know the time when Apple fixed the bug.
+  if (matched[1].indexOf('12') !== 0) return;
   Array.prototype._reverse = Array.prototype.reverse;
   Array.prototype.reverse = function reverse() {
     this.length = this.length;
     return this._reverse();
   }
-  const nonenum = {enumerable: false};
+  var nonenum = {enumerable: false};
   Object.defineProperties(Array.prototype, {
-	  _reverse: nonenum,
-	  reverse: nonenum,
+      _reverse: nonenum,
+      reverse: nonenum,
   });
 })();

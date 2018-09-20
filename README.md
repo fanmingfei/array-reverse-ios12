@@ -13,6 +13,11 @@ https://www.v2ex.com/t/490590 (in Chinese)
 
 https://zhuanlan.zhihu.com/p/44869607 (in Chinese)
 
+A simple visualization of this bug:
+
+![bug-metaphor](https://user-images.githubusercontent.com/2784308/45812030-411f7e00-bd01-11e8-8b84-93cddc0a4c66.gif)
+
+(Thank @yisibl for his magical realism style drawing / 感谢灵魂画手一丝姐姐)
 
 ## Usage
 

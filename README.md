@@ -44,7 +44,28 @@ Alibaba
 
 This polyfill use *[feature (bug 🙃) detection](https://en.wikipedia.org/wiki/Feature_detection_(web_development))* instead of *[UA sniffing](https://en.wikipedia.org/wiki/User_agent#User_agent_sniffing)*.
 
-If you want to load the polyfill in client-side or add the polyfill script in server-side only for Safari 12.0, please search "Version/12.0" and "Safari/" substring in user-agent string. You could also use regexp `/Version\/12\.0.*Safari\//`.
+Some may want to load the polyfill in client-side or add the polyfill script in server-side only for Safari 12.0, and save the request to the polyfill for all other browsers. We assume the next version of iOS/Safari (12.1) will fix the bug, so we suggest you search "Version/12.0" and "Safari/" substring in user-agent string. You could also use regexp `/Version\/12\.0.*Safari\//`.
+
+### Client on-demand load
+```html
+<head>
+<script>
+if (/Version\/12\.0.*Safari\//.test(navigator.userAgent))
+  loadScript('https://cdn.jsdelivr.net/npm/array-reverse-polyfill')
+// Assume you have `loadScript()` available to create and insert the script tag.
+</script>
+...
+*NOTE*: The polyfill should be loaded and executed before all other scripts. So be careful about the `async` `defer` or `type=module`attributes and make sure your `loadScript()` implemetation will keep the order.
+```
+
+### Server-side adaption (use PHP as sample)
+```php
+<head>
+<? if (preg_match('#Version/12\.0.*Safari/#', $_SERVER['HTTP_USER_AGENT'])): ?>
+<script src="https://cdn.jsdelivr.net/npm/array-reverse-polyfill"></script>
+<? endif; ?>
+...
+```
 
 ## Test
 

@@ -55,8 +55,8 @@ if (/Version\/12\.0.*Safari\//.test(navigator.userAgent))
 // Assume you have `loadScript()` available to create and insert the script tag.
 </script>
 ...
-*NOTE*: The polyfill should be loaded and executed before all other scripts. So be careful about the `async` `defer` or `type=module`attributes and make sure your `loadScript()` implemetation will keep the order.
 ```
+**NOTE**: The polyfill should be loaded and executed before all other scripts. So be careful about the `async` `defer` or `type=module`attributes and make sure your `loadScript()` implemetation will keep the order.
 
 ### Server-side adaption (use PHP as sample)
 ```php
